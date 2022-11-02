@@ -2,7 +2,6 @@ import React from "react";
 import classes from "./Form.module.css";
 
 const submitHandler = (event) => {
-  console.log(event.target);
   event.preventDefault();
 };
 
@@ -17,25 +16,19 @@ const Form = (props) => {
           <label>Stock Name:</label>
         </div>
         <div className={classes["user-box"]}>
-          <input type="text" name="" required=""></input>
-          <label>Project's Website</label>
+          <input type="date" name="" required=""></input>
+          <label>Choose Start date:</label>
         </div>
-        <div className={classes["userbox date"]}>
-          <input type="date" value="" />
+        <div className={classes["two-buttons-main"]}>
+          <div className={classes["two-buttons-outer"]}>
+            <button className={classes["two-buttons-inner"]}>
+              Stock Price
+            </button>
+          </div>
+          <div className={classes["two-buttons-outer"]}>
+            <button className={classes["two-buttons-inner"]}>Indicator</button>
+          </div>
         </div>
-        {/* <div class="user-box">
-          <input type="text" name="" required=""></input>
-          <label>Project's Twitter</label>
-        </div>
-        <div class="user-box">
-          <input type="email" name="" required=""></input>
-          <label>Email</label>
-        </div>
-        <div class="user-box">
-          <input type="number" name="" required=""></input>
-          <label>No. of Whitelists</label>
-        </div> */}
-        <a href="#">Submit</a>
       </form>
     </div>
   );
