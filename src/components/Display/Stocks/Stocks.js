@@ -1,9 +1,11 @@
-
+import React from "react";
 
 const Stocks = (props) => {
-    <h1>
-        Hi
-    </h1>
-}
+  return (
+    <React.Fragment>
+      <h1>hi!</h1>
+    </React.Fragment>
+  );
+};
 
-export default Stocks;  
+export default Stocks;
