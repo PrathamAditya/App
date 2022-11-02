@@ -12,10 +12,6 @@ const Firstly = () => {
   console.log(typeof(data));
   return (
     <React.Fragment>
-<<<<<<< HEAD
-      <Form></Form>
-      <Footer></Footer>
-=======
       <div className={`${classes.card}`}>
       <h2>Hey! Welcome here ツ</h2>
         <Form 
@@ -24,7 +20,6 @@ const Firstly = () => {
       </div>
       <Stocks />
       <Footer />
->>>>>>> ae0f215 (more)
     </React.Fragment>
   );
 };
