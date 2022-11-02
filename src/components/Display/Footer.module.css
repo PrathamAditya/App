@@ -1,17 +1,19 @@
 footer {
-    bottom: 0%;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     text-align: center;
-    padding-bottom: 4vh;
+    padding-bottom: 3vh;
     margin-top: auto;
 }
 
 
-.sub-class {
+.subclass {
     font-size: 2.5vh;
+    padding: .2vh;
 }
 
 .favicon {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }

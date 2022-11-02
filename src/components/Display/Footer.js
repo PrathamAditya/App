@@ -5,10 +5,10 @@ const Footer = () => {
   const today = new Date();
   const year = today.getFullYear();
   return (
-    <footer className="main-class">
-      <img src={favicon} className="favicon" />
-      <p className="sub-class">Made with ♡.</p>
-      <p className="sub-class">© {year} All rights reserved.</p>
+    <footer className={classes.footer}>
+      <img src={favicon} className={classes.favicon} />
+      <p className={classes.subclass}>Made with ♡.</p>
+      <p className={classes.subclass}>© {year} All rights reserved.</p>
     </footer>
   );
 };
