@@ -1,14 +1,30 @@
-import React from "react";
+import React,{useState} from "react";
 import classes from "./Firstly.module.css";
 import Footer from "./Footer.js";
-import Card from "../UI/Card.js";
 import Form from "./Form/Form.js";
-
-const Firstly = (props) => {
+import Stocks from "./Stocks/Stocks.js";
+const Firstly = () => {
+  const [data, setData] = useState([{}]);
+  function getData(stdata){
+    setData(stdata);
+    console.log(stdata);
+  }
+  console.log(typeof(data));
   return (
     <React.Fragment>
+<<<<<<< HEAD
       <Form></Form>
       <Footer></Footer>
+=======
+      <div className={`${classes.card}`}>
+      <h2>Hey! Welcome here ツ</h2>
+        <Form 
+          parentsgetData={getData}
+        />
+      </div>
+      <Stocks />
+      <Footer />
+>>>>>>> ae0f215 (more)
     </React.Fragment>
   );
 };

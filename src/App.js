@@ -4,7 +4,7 @@ import Firstly from "./components/Display/Firstly.js";
 function App() {
   return (
     <React.Fragment>
-      <Firstly></Firstly>
+      <Firstly />
     </React.Fragment>
   );
 }
