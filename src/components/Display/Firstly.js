@@ -7,12 +7,7 @@ import Form from "./Form/Form.js";
 const Firstly = (props) => {
   return (
     <React.Fragment>
-      <Card>
-        {" "}
-        <h2>Hey! Welcome here ツ</h2>
-        <Form></Form>
-      </Card>
-
+      <Form></Form>
       <Footer></Footer>
     </React.Fragment>
   );

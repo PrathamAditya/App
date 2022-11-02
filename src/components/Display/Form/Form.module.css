@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DK Lemon Yellow Sun', sans-serif;
+    background: #FDFBF9;
+}
+
+label {
+    font-size: 2.3vh;
+}
+
+.apply-box {
+    width: 35vw;
+    padding: 7vh;
+    margin: 10vh auto;
+    background: #8aa4c5;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.apply-box h2 {
+    margin: 0 0 3vh;
+    padding: 0;
+    color: #FDFBF9;
+    text-align: center;
+    font-size: 8vh;
+}
+
+.apply-box .user-box {
+    position: relative;
+}
+
+.apply-box .user-box input {
+    width: 100%;
+    padding: 3vh 0vh 0.5vh 0vh;
+    font-size: 16px;
+    color: #FDFBF9;
+    margin-bottom: 4vh;
+    border: none;
+    border-bottom: 1px solid #FDFBF9;
+    outline: none;
+    background: transparent;
+}
+
+.apply-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2vh 0;
+    color: #FDFBF9;
+}
+
+.apply-box .user-box input:focus~label,
+.apply-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #FDFBF9;
+    /* font-size: 12px; */
+}
+
+.apply-box form a {
+    position: center;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FDFBF9;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
