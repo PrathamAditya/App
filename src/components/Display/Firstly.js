@@ -11,8 +11,7 @@ const Firstly = () => {
   console.log(typeof data);
   return (
     <React.Fragment>
-      <div className={`${classes.card}`}>
-        <h2>Hey! Welcome here ツ</h2>
+      <div>
         <Form parentsgetData={getData} />
       </div>
       <Stocks />
